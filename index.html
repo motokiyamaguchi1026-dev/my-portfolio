@@ -7,16 +7,21 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  
   <header>
-    <h1>My Portfolio</h1>
+    <h1>Motoki Yamaguchi</h1>
+
+    <p class="subtitle">
+      Web開発を学習中の学生です。
+    </p>
 
     <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -24,17 +29,31 @@
 
     <section id="about">
       <h2>About</h2>
-      <p>IT系を勉強中です。</p>
+
+      <p>
+        Java・SQLを中心に学習しています。<br>
+        現在はWebアプリ開発に興味があり、
+        HTML / CSS / JavaScriptを使った制作にも取り組んでいます。
+      </p>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
 
-      <ul>
-        <li>HTML / CSS</li>
-        <li>JavaScript</li>
-        <li>SQL</li>
-      </ul>
+      <div class="skill-box">
+        <h3>HTML / CSS</h3>
+        <p>レスポンシブ対応を意識したWebページ制作</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>JavaScript</h3>
+        <p>簡単な動的処理やUI実装</p>
+      </div>
+
+      <div class="skill-box">
+        <h3>SQL</h3>
+        <p>SELECT / JOIN / GROUP BY などの基本操作</p>
+      </div>
     </section>
 
     <section id="projects">
@@ -42,14 +61,48 @@
 
       <div class="card">
         <h3>ToDoアプリ</h3>
-        <p>タスク管理ができるアプリです。</p>
 
-        <a href="https://github.com/">GitHub</a>
+        <p>
+          タスク管理ができるWebアプリです。
+        </p>
+
+        <p>
+          HTML / CSS / JavaScript を使用して制作しました。
+        </p>
+
+        <p>
+          見やすいUIを意識し、
+          スマホ表示にも対応しました。
+        </p>
+
+        <a href="#">GitHub</a>
       </div>
+
+      <div class="card">
+        <h3>家計簿アプリ</h3>
+
+        <p>
+          支出管理ができるWebアプリです。
+        </p>
+
+        <p>
+          データの整理や見やすさを意識して制作しました。
+        </p>
+
+        <a href="#">GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>GitHub : リンクを後で追加</p>
+      <p>Email : example@example.com</p>
     </section>
 
   </main>
 
   <script src="script.js"></script>
+
 </body>
 </html>
