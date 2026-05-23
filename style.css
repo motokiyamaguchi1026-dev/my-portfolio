@@ -10,7 +10,7 @@ html {
 
 body {
   background: #f5f5f5;
-  color: #111;
+  color: #111111;
   font-family: 'Inter', sans-serif;
   line-height: 1.7;
 }
@@ -30,7 +30,7 @@ header {
   top: 0;
   z-index: 1000;
 
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(157, 212, 228, 0.9);
   backdrop-filter: blur(10px);
 
   border-bottom: 1px solid rgba(198, 27, 27, 0.08);
@@ -167,7 +167,7 @@ p {
 
   padding: 12px 20px;
 
-  background: #111;
+  background: rgba(157, 212, 228, 0.9);
   color: white;
 
   text-decoration: none;
@@ -188,3 +188,38 @@ p {
 #contact a:hover {
   text-decoration: underline;
 }
+
+footer {
+  border-top: 1px solid #dcdcdc;
+  margin-top: 120px;
+}
+
+footer section {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding: 80px 40px;
+}
+
+footer h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+  letter-spacing: -2px;
+}
+
+footer p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+footer a {
+  color: #111;
+  text-decoration: none;
+
+  /* transition: 0.3s; */
+}
+/* 
+footer a:hover {
+  opacity: 0.6;
+} */
