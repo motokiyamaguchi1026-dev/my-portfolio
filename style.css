@@ -138,6 +138,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  align-items: stretch;
 }
 
 .card {
@@ -147,9 +148,8 @@ p {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
-  transition: 0.3s;
+  min-height: 320px;
 }
 
 .card:hover {
@@ -157,10 +157,12 @@ p {
 }
 
 .project-links {
+  margin-top: auto;
+
   display: flex;
   gap: 12px;
-  margin-top: 20px;
 }
+
 
 .card a {
   display: inline-block;
