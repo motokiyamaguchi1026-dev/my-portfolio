@@ -106,7 +106,33 @@ p {
 }
 
 
+.about-container {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
 
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-strength {
+  flex: 1;
+
+  background:rgba(157, 212, 228, 0.9);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.about-strength h3 {
+  margin-bottom: 20px;
+}
+
+.about-strength p {
+
+  margin-bottom: 12px;
+}
 
 .skills-grid {
   display: grid;
@@ -219,9 +245,5 @@ footer a {
   color: #111;
   text-decoration: none;
 
-  /* transition: 0.3s; */
+ 
 }
-/* 
-footer a:hover {
-  opacity: 0.6;
-} */
